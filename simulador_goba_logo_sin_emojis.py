@@ -1,14 +1,15 @@
 import streamlit as st
 from PIL import Image
 
+
+st.set_page_config(page_title="Goba Capital Simulator", layout="centered")
+
 # Mostrar logo de Goba Capital
 logo = Image.open('Goba_Logo-Tagline_CMYK.png')
 st.image(logo, width=300)
 
 
 import streamlit as st
-
-st.set_page_config(page_title="Goba Capital Simulator", layout="centered")
 st.title("" + st.image('Goba_Icon_CMYK_Med-Green.png', width=25) + " Goba Capital Simulator")
 
 st.markdown("""
